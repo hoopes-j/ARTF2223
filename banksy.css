@@ -1,23 +1,117 @@
 /* contains the style for responsive media banksy at northeastern webpage */
 
+h1 {
+	font-size: 55px;
+}
+
+p {
+	font-size: 24px;
+}
+
 #container {
-	height: 1080px;
+	height: 100%;
 	width: 100%;
-	background-color: red;
-	font-family: helvetica;
+	background-color: rgb(185,8,8);
+	font-family: helvetica neue;
 }
 
 #panel {
-	background-color: grey;
+	background-color: rgb(92,88,88);
 	width: 1069px;
 	height: 1080px;
-	margin-left: 20%;
-	margin-right: 20%;
-	text-align: center;
+	margin: auto;
+	
+}
+
+
+#title {
+	float: left;
+	margin-left: 81px;
+	margin-top: 45px;
+}
+
+#title h1 {
 	float: left;
 }
 
-#image {
+#photo {
 	float: left;
-	margin-left: 81px;
+	margin-left: 40px;
+}
+
+#box1 {
+	background-color: white;
+	width: 387px;
+	height: 459px;
+	float: left;
+	margin-left: 57px;
+	font-size: 25px;
+	text-align: left;
+	display: block;
+	position: relative;
+}
+
+#box1 p {
+	margin-left: 38px;
+	margin-right: 38px;
+}
+
+#box2 {
+	width: 977px;
+	height: 310px;
+	background-color: white;
+	margin-top: 70px;
+	margin-left: 50px;
+	float: left;
+}
+
+#box2 p {
+	margin-left: 38px;
+	margin-right: 38px;
+	margin-top: 45px;
+	position: relative;
+}
+
+@media screen and (max-width: 1070px) {
+	#wrap_______________START1069{}
+	
+
+	#container {
+		height: 1293px;
+	}
+
+	#panel {
+		width: auto;
+		height: 100%;
+		margin: 0px;
+	}
+
+	#box1 {
+		width: 90%;
+		margin-left: 5%;
+		height: auto;
+	}
+
+	#box2 {
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 1%;
+		height: auto;
+	}
+
+	#photo img {
+		width: 100%;
+	}
+
+	#photo {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+}
+
+@media screen and (max-width: 834px) {
+	#box2 {
+		visibility: hidden;
+	}
 }
