@@ -1,0 +1,23 @@
+/* contains the style for responsive media banksy at northeastern webpage */
+
+#container {
+	height: 1080px;
+	width: 100%;
+	background-color: red;
+	font-family: helvetica;
+}
+
+#panel {
+	background-color: grey;
+	width: 1069px;
+	height: 1080px;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+	float: left;
+}
+
+#image {
+	float: left;
+	margin-left: 81px;
+}
