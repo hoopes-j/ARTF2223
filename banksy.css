@@ -132,14 +132,13 @@ html {
 	}
 }
 
-@media screen and (max-width: 375px) {
-	html {
-	max-height: 375px;
-}
+@media screen and (max-width: 414px) {
+	
+
 
 	#container {
-		height: 667px;
-		max-width: 375px;
+		height: 896px;
+		max-width: 414px;
 		width: 100%;
 		background-color: rgb(185,8,8);
 		font-family: helvetica neue;
@@ -147,7 +146,7 @@ html {
 
 	#panel {
 		width: 100%;
-		height: 667px;
+		height: 896px;
 		margin: auto;
 	}
 
@@ -157,7 +156,7 @@ html {
 		margin-left: 20%;
 		margin-right: 20%;
 		position: relative;
-		margin-top: 45px;
+		margin-top: 3%;
 	}
 
 	#title h1 {
