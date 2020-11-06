@@ -133,27 +133,30 @@ html {
 }
 
 @media screen and (max-width: 375px) {
+	html {
+	max-height: 375px;
+}
+
 	#container {
-		height: 1112px;
+		height: 667px;
+		max-width: 375px;
 		width: 100%;
 		background-color: rgb(185,8,8);
 		font-family: helvetica neue;
 	}
 
 	#panel {
-		width: 834px;
-		background-color: blue;
-		height: 1112px;
+		width: 100%;
+		height: 667px;
 		margin: auto;
-		
 	}
 
 
 	#title {
 		float: left;
-		margin-left: 25%;
-		width: 834px;
-		text-align: center;
+		margin-left: 20%;
+		margin-right: 20%;
+		position: relative;
 		margin-top: 45px;
 	}
 
@@ -177,11 +180,11 @@ html {
 
 	#textbox {
 		background-color: white;
-		width: 80%;
+		width: 100%;
 		height: auto;
 		float: left;
-		margin-left: 10%;
-		margin-top: 5%;
+		margin-left: 0px;
+		margin-top: 0px;
 		font-size: 25px;
 		text-align: left;
 		display: block;
