@@ -66,68 +66,32 @@ p {
 	margin-right: 38px;
 }
 
-@media screen and (max-width: 1070px) {
-	#wrap_______________START1069{}
+@media screen and (max-width: 835px) {
 	
-	html {
-		max-height: 1080px;
-	}
-
-	#container {
-		height: 1080px;
-	}
-
-	#panel {
-		width: auto;
-		height: 1080px;
-		margin: 0px;
-	}
-
-	#box1 {
-		width: 90%;
-		margin-left: 5%;
-		height: auto;
-	}
-
-	#box2 {
-		width: 90%;
-		margin-left: 5%;
-		margin-top: 1%;
-		height: auto;
-	}
-
-	#photo img {
-		width: 100%;
-	}
-
-	#photo {
-		width: 90%;
-		margin-left: 5%;
-	}
-
+html {
+	max-height: 834px;
 }
 
-@media screen and (max-width: 835px) {
 	#container {
 		height: 1112px;
+		max-width: 834px;
 		width: 100%;
 		background-color: rgb(185,8,8);
 		font-family: helvetica neue;
 	}
 
 	#panel {
-		width: 834px;
+		width: 100%;
 		height: 1112px;
 		margin: auto;
-		
 	}
 
 
 	#title {
 		float: left;
-		margin-left: 25%;
-		width: 834px;
-		text-align: center;
+		margin-left: 20%;
+		margin-right: 20%;
+		position: relative;
 		margin-top: 45px;
 	}
 
