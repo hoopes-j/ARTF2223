@@ -97,7 +97,7 @@ a:hover {
 	text-decoration: none;
 }
 
-#links {
+.links {
 	float: left;
 	position: absolute;
 	bottom: 110px;
