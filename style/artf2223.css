@@ -59,14 +59,14 @@ h1 {
 }
 
 
-.footer {
+.menu {
 	
 	bottom: 10%;
-	left: 0px;
-	width: 97%;
+	width: 90%;
 	/*margin-left: auto;
 	margin-right: auto;*/
-	margin-left: 2%;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 2.5%;
 	margin-top: 2%;
 	display: flex;
@@ -93,7 +93,7 @@ a:visited {
 	text-decoration: none;
 }
 
-a:hover {
+a:hover h3{
 	color: black;
 	text-decoration: none;
 }
