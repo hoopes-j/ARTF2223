@@ -1,65 +1,6 @@
-function changeZ() {
-	var body = document.getElementById("body");
-	if (body.style.zIndex == -1) {
-		body.style.zIndex = "3";
-	}
-	else {
-		body.style.zIndex = "-1";
-	}
-}
 
-function animateUp() {
-	var box = document.getElementById("body");
-	var pos = 800;
-	var int = setInterval(frame,2);
-	function frame() {
-		if (pos == 300) {
-			clearInterval(int);
-		}
-		else {
-			pos--;
-			box.style.top = pos + "px";
-		}
-	}
-}
-
-function animateDown() {
-	var box = document.getElementById("body");
-	var pos = -200;
-	var int = setInterval(frame,2);
-	function frame() {
-		if (pos == 300) {
-			clearInterval(int);
-		}
-		else {
-			pos++;
-			box.style.top =  pos + "px";
-		}
-	}
-}
-
-function toggleVisibility() {
-	var e = document.getElementById("body");
-	if (e.style.display == "none") {
-		e.style.display = "inline-block";
-	}
-	else {
-		e.style.display = "none";
-	}
-}
-
-function ani(start, end, element) {
-	var pos = start;
-	var int = setInterval(frame, 2);
-	function frame() {
-		if (pos == end) {
-			clearInterval(int);
-		}
-		else {
-			pos++;
-
-		}
-	}
+function infoPage() {
+	location.href = "info.html";
 }
 
 function openDoor() {
