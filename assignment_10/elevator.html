@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="elevator.css" rel="stylesheet">
+	<title>Elevator</title>
+	<script src="elevator.js"></script>
+</head>
+<body>
+
+<div id="container">
+	<div id="elevator"> 
+		<div id="frame">
+			<img src="1x/outside.png"></img>
+		</div>
+		<div id="letters"> 
+			<p id="g1" onmouseenter="fontHover('g1')" onmouseleave="fontHover('g1')"> G </p>
+			<p id="o1" onmouseenter="fontHover('o1')" onmouseleave="fontHover('o1')"> O </p>
+			<p id="o2" onmouseenter="fontHover('o2')" onmouseleave="fontHover('o2')"> O </p>
+			<p id="g2" onmouseenter="fontHover('g2')" onmouseleave="fontHover('g2')"> G </p>
+			<p id="l" onmouseenter="fontHover('l')" onmouseleave="fontHover('l')"> L </p>
+			<p id="e" onmouseenter="fontHover('e')" onmouseleave="fontHover('e')">  E </p>
+		</div>
+		<div id="cabin">
+			<img src="1x/car.png"> </img>
+		</div>
+		<div id="doordiv" onmouseenter="openDoor()" onmouseleave="closeDoor()">
+		</div>
+		<div id="doorLeft">
+			<img src="1x/door.png"></img>
+		</div>
+		<div id="doorRight">
+			<img src="1x/door.png"></img>
+		</div>
+		<div id="controlButtons"> 
+			<div id="up" onmouseenter="buttonHover('up'); moveUp()" onmouseleave="buttonHover('up')">
+				<img src="1x/arrow.png"></img>
+			</div>
+			<div id="down" onmouseenter="buttonHover('down'); moveDown()" onmouseleave="buttonHover('down')">
+				<img src="1x/arrow.png"></img>
+			</div>
+		</div>
+	</div>
+</div>
+
+	
+
+
+	
+</body>
+</html>
