@@ -1,17 +1,29 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+
+}
+
+
+
 .outer {
+	display: block;
 	background: rgb(50,50,50);
 	width: 200px;
 	height: 300px;
-	float: left;
-	margin-top: 50px;
-	margin-left: 810px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
 	}
 
 .inner {
+	display: block;
+	float: left;
 	background: rgb(250,250,250);
 	width: 100px;
 	height: 100px;
-	float: left;
 	margin-right: 50px;
 	margin-left: 50px;
 	margin-top: 150px;
@@ -26,9 +38,9 @@
 
 
 .container {
-	width: 1920px;
-	height: 1080px;
-	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
 	background:rgb(0,0,0);
 	
 }
